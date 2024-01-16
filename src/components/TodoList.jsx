@@ -11,6 +11,7 @@ const TodoList = () => {
             return
         }
         const newTodos = [todo, ...todos] 
+        newTodos.reverse();
         setTodos(newTodos)
     }
 
